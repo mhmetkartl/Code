@@ -1,5 +1,6 @@
 int trig_left = 8;
 int trig_right = 10;
+//sync
 
 int echo_left = 9;
 int echo_right = 11;
