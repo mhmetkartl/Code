@@ -1,7 +1,7 @@
 int trig_left = 8;
 int trig_right = 10;
 //sync
-
+//sync2
 int echo_left = 9;
 int echo_right = 11;
 
