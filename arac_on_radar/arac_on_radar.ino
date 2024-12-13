@@ -19,7 +19,7 @@ void setup() {
   pinMode(trig_left, OUTPUT);
   //pinMode(trig_right, OUTPUT);
   pinMode(echo_left, INPUT);
-  pinMode(buzzer,OUTPUT);
+  pinMode(buzzer, OUTPUT);
   //pinMode(echo_right, INPUT);
 
   Serial.begin(9600);
@@ -36,7 +36,7 @@ void loop() {
   distance_left = time_left / 29.1 / 2;
 
 
- /* digitalWrite(trig_right, 0);
+  /* digitalWrite(trig_right, 0);
   delayMicroseconds(5);
   digitalWrite(trig_right, 1);
   delayMicroseconds(10);
@@ -51,13 +51,12 @@ void loop() {
   //Serial.print("right: ");
   //Serial.println(distance_right);
 
-  if(distance_left < 25);
+  if (distance_left < 25)
+    ;
   {
-    digitalWrite(buzzer,1);
-
+    digitalWrite(buzzer, 1);
   }
-  else
-  {
-    digitalWrite(buzzer,0);
+  else {
+    digitalWrite(buzzer, 0);
   }
 }
